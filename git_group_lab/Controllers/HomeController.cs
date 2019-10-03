@@ -22,6 +22,13 @@ namespace git_group_lab.Controllers
             return View();
         }
 
+		public IActionResult Alex()
+        {
+            ViewData["Message"] = "Hi, my name is Alexander Jones and I would like to know why my Visual Studio is always wrong.";
+
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
