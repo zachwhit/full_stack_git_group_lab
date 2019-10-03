@@ -22,6 +22,11 @@ namespace git_group_lab.Controllers
             return View();
         }
 
+        public IActionResult Zach()
+        {
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
